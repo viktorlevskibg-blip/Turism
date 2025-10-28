@@ -1,0 +1,9 @@
+body{
+    color:rgba(128, 0, 248, 0.932);
+    background-color: rgba(15, 55, 90, 0.267);
+}
+img{
+    border: 10px;
+    border-radius: 20px;
+    border: 10px solid rgba(112, 117, 67, 0.801); 
+}
