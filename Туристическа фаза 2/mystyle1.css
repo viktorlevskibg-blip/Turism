@@ -5,6 +5,9 @@ body{
 img{
     border: 10px;
     border-radius: 20px;
-    border: 10px solid rgb(143, 161, 30); 
-            
+    border: 10px solid rgb(22, 107, 107); 
+}
+button{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
 }
