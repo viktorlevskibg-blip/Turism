@@ -1,0 +1,86 @@
+body {
+  background-image: url('egyptian-pyramids-1920x1080-17862.jpg');
+  background-size: cover;     
+  background-repeat: no-repeat; 
+  background-position: center;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #7e7044; 
+  margin: 20px;
+}
+h1{
+    text-align: center;
+    font-size:40px;
+}
+.image1{
+    height:370px;
+    width:700px;
+    margin-left:1180px;
+    border-radius:15px;
+    margin-bottom:300px;
+}
+.image2 {
+  position: absolute;
+  top: 0; 
+  left: 1180px;
+  margin: 0;
+  z-index: 1;
+  height: 500px;
+  width: 700px;
+  border-radius:15px;
+  margin-top:-305px;
+  background-image: url('960.jpg');
+  background-size: cover;     
+  background-repeat: no-repeat; 
+  background-position: center;  
+}
+
+.card {
+  position: absolute;
+  left: 10px;
+  padding: 10px;
+  background: rgba(87, 105, 7, 0.6);
+  color: #d6d437dc;
+  font-size: 25px;
+  border-radius: 15px;
+  margin-top:-670px;
+  width: 500px;   
+  height: 468px;   
+  overflow: auto;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ccbc89;
+    margin: 20px;
+}
+.visitor-info {
+  position: absolute;
+  top: 108px; 
+  left: 550px; 
+  margin: 0; 
+  padding: 10px;
+  max-width: 480px;
+  width: 100%;
+  background: #e6c61165;
+  border: 5px solid hsla(87, 26%, 25%, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(121, 128, 26, 0.904);
+  font-size: 20px;
+  line-height: 1.45;
+  overflow: auto;
+  max-height: 465px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+iframe {
+  position: relative; 
+  z-index: 10; 
+}
+hr {
+   height:5px;
+   background-color: hsl(64, 88%, 47%);
+    border:0;
+}
+
+
