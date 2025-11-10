@@ -1,9 +1,52 @@
 body{
     background-color: #dbbf1f7a;
    color:rgb(243, 145, 33) ;
+   background-image: url(hagia_sophia_istanbul_tickets__4_-2.jpg);
+  background-size: cover;     
+  background-repeat: no-repeat; 
+  background-position: center;  
 }
 img{
     border: 10px;
     border-radius: 35px;
     border: 8px solid rgb(146, 125, 80); 
+    
+}
+.nav-details {
+  background-color: #d3c54b00;
+  padding:3px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-details h1 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #000000;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #004999;
 }
