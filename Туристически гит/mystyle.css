@@ -1,9 +1,16 @@
 body{
-    color:rgb(115, 139, 71);
-    background-color: rgba(15, 55, 90, 0.267);
+    color:rgb(177, 229, 48);
+    background-image: url(2323.jpg);
+    background-size: cover;     
+   background-repeat: no-repeat; 
 }
 img{
     border: 10px;
     border-radius: 20px;
     border: 10px solid rgba(112, 117, 67, 0.801); 
+    height:310px;
+    width:520px;
+}
+.visitor-info{
+    padding:100px;
 }
