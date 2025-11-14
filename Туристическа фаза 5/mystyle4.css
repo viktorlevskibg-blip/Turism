@@ -1,0 +1,21 @@
+body{
+    background-image: url(R.jpg);
+    background-size: cover;     
+   background-repeat: no-repeat; 
+}
+h1{
+    text-align: center;
+}
+div{
+    margin-right:1%;
+    margin-top: -1px;
+}
+.i1{
+    height:390px;
+    width:630px;
+    margin-left:2%;
+}
+.i2{
+    height:390px;
+    width: 600px;
+}
