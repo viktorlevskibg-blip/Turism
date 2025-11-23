@@ -36,3 +36,21 @@ Triangle1([1,6,9,7,2,3])
 Triangle1([1,3,1,5,0,5])
 console.log(`---------`);
 
+function Month(input)
+{
+let monthNumber = Number(input[0])
+let months = [`January`, `February`, `March`, `April`, `May`, `June`, `July`, `August`, `September`, `October`, `November`, `December`]
+if(monthNumber >= 0 && monthNumber <= 12)
+{
+console.log(`The month u selected is ${months[monthNumber - 1]}`)
+}
+else
+{
+console.log(`Error!`);
+}
+}
+Month([1])
+Month([13])
+console.log(`----------------`);
+
+
