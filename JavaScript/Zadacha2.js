@@ -53,4 +53,20 @@ Month([1])
 Month([13])
 console.log(`----------------`);
 
-
+function Finder(input)
+{
+let y = Number(input[1])
+let x = Number(input[0])
+if(y == 2)
+x <= 0; 
+ else if (y == x+2) 
+x (0,1); 
+ else if (y == 3) 
+x [1,2]; 
+else if (y == 5-x) 
+ x (2,3); 
+else if (y == 2)
+ x >= 3;
+console.log(`the variables x and y are in the area ${x} and ${y}`);
+}
+Finder([4,3])
