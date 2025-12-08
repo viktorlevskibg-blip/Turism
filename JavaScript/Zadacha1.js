@@ -13,29 +13,24 @@ let EURO = BGN*0.51;
 console.log(`Your money in EURO is ${EURO}€`)
 }
 Converter([5])
-function Materials(input) {
-  
-    let chemNum = Number(input[0]);    
-    let markerNum = Number(input[1]);  
-    let cleanerLitres = Number(input[2]); 
-    let discountPercent = Number(input[3]); 
-
+function Materials(input){
     
-    let chemPrice = 5.8;
-    let markerPrice = 7.2;
-    let cleanerPrice = 1.2;
+let penNum = Number(input[0])
+let Pencil = 5.80;
+let finalPenSum = Pencil*penNum;
 
-   
-    let chemTotal = chemNum * chemPrice;
-    let markerTotal = markerNum * markerPrice;
-    let cleanerTotal = cleanerLitres * cleanerPrice;
+let markerNum = Number(input[1]);
+let Marker = 7.20;
+let finalMarkNum = Marker*markerNum;
 
-  
-    let grossTotal = chemTotal + markerTotal + cleanerTotal;
-    
-   
-    let finalTotal = grossTotal - (grossTotal * discountPercent / 100);
+let cleanerNum = Number(input[2]);
+let Cleaner = 1.20;
+let finalCleanNum = Cleaner*cleanerNum;
 
-    console.log(finalTotal.toFixed(1));
+let discount = Number(input[3])
+
+let Total = finalPenSum + finalMarkNum + finalCleanNum;
+let TotalForNow = Total -((Total * discount)/100);
+console.log(`The whole amount to pay for the materials is ${Total}`);
 }
-Materials([2, 3, 4, 25]); 
+Materials()

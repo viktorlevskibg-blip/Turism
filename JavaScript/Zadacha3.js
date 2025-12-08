@@ -1,25 +1,75 @@
-function Month(input)
+//for cycle
+function solve(input)
 {
-let January = Number(input[1])
-let February = Number(input[2])
-let March = Number(input[3])
-let April = Number(input[4])
-let May = Number(input[5])
-let June = Number(input[6])
-let July = Number(input[7])
-let August = Number(input[8])
-let September = Number(input[9])
-let October = Number(input[10])
-let November = Number(input[11])
-let December = Number(input[12])
-let monthNumber = Number(input[13])
-if(monthNumber != 1,2,3,4,5,6,7,8,9,10,11,12)
+    let n = Number(input[0])
+    for (let i = n - 1; i <= 0 ; i--){
+        console.log(i);
+    }
+}
+solve([3])
+console.log(`--------------------`);
+
+function solve1(input){
+    let n = Number(input[0])
+    for (let i = 1; i <= n; i += 3){
+        console.log(i);
+    }
+}
+solve1([7])
+console.log(`--------------------`);
+
+function test(input)
 {
-console.log(`The month u selected is ${monthNumber}`)
-}
-else
+let num = input[0];
+for (let i = 0;i < num.length;i++)
 {
-console.log(`Error!`);
+console.log(num[i]);
 }
 }
-Month([])
+test([`hi`])
+console.log(`-------------------`);
+
+function Counting(input)
+{
+    let n = Number(input[0])
+    for (let i = n - 1; i >= 1 ; i--){
+        console.log(i);
+    }
+}
+Counting([100])
+console.log(`-----------------`)
+function PositiveNumber(input){
+  let n = Number(input[0])
+    for (let i = n ; i >= 1 ; i--){
+        console.log(i);
+    }
+}
+PositiveNumber([2])
+console.log(`--`)
+PositiveNumber([3])
+console.log(`--`)
+PositiveNumber([5])
+console.log(`---------------`)
+function Solve(input){
+     let n = Number(input[0])
+    for (let i = 1; i <= n; i += 3){
+        console.log(i);
+    }
+}
+Solve([10])
+console.log(`--`)
+Solve([7])
+console.log(`--`)
+Solve([15])
+console.log(`-----------------`)
+function Steps(input){
+let n = Number(input[0])
+    for (let i = 0 ; i <= n; i += 2){
+        console.log(Math.pow(2,i));
+    }
+}
+Steps([4])
+console.log(`-------------------`)
+function Sum(input){
+    
+}

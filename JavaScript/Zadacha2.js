@@ -34,7 +34,7 @@ console.log(`The area of the triangle is ${S}.`);
 Triangle1([5,5,5,4,4,4])
 Triangle1([1,6,9,7,2,3])
 Triangle1([1,3,1,5,0,5])
-console.log(`---------`);
+console.log(`----------------`);
 
 function Month(input)
 {
@@ -55,18 +55,34 @@ console.log(`----------------`);
 
 function Finder(input)
 {
-let y = Number(input[1])
 let x = Number(input[0])
-if(y == 2)
-x <= 0; 
- else if (y == x+2) 
-x (0,1); 
- else if (y == 3) 
-x [1,2]; 
-else if (y == 5-x) 
- x (2,3); 
-else if (y == 2)
- x >= 3;
-console.log(`the variables x and y are in the area ${x} and ${y}`);
+if(x <= 0 && x < 1)
+ console.log(`y = 2`);
+ else if ( x > 0 && x < 1)
+console.log(`y = ${x + 2}`);
+ else if (x >= 1 && x <= 2) 
+console.log(`y = 3`)
+else if ( x > 2 && x < 3)
+ console.log(`y = ${5 - x}`);
+else if (x >= 3)
+ console.log(`y = 2`);
 }
-Finder([4,3])
+Finder([-12])
+Finder([0.5])
+Finder([1.5])
+console.log(`----------------`);
+function Function1(shape,a,b)
+{
+    switch(shape){
+        case "square":console.log(a*a);break;
+       case "rectangle":console.log(a*b);break;
+       case "circle":console.log(Math.PI*a*a);break;
+       case "triangle":console.log((a*b)/2);break;
+       default: console.log("Error!"); break;
+    }
+    }
+Function1("square",5);
+Function1("rectangle",4,6);
+Function1("circle",3);
+Function1("triangle",4,5);
+
