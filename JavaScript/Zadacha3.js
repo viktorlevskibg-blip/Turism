@@ -71,5 +71,10 @@ let n = Number(input[0])
 Steps([4])
 console.log(`-------------------`)
 function Sum(input){
-    
+ let a = Number(input[0])
+ let b = Number(input[1])
+     for (let i = a ; i <= b; i / 9){
+        console.log(b)
+    }
 }
+Sum([100])
