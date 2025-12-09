@@ -73,8 +73,49 @@ console.log(`-------------------`)
 function Sum(input){
  let a = Number(input[0])
  let b = Number(input[1])
-     for (let i = a ; i <= b; i / 9){
-        console.log(b)
+ let sum = 0
+     for (let i = a; i <= b; i++){
+        if(i % 9 === 0){
+            sum += i
     }
 }
-Sum([100])
+     console.log(`the sum: ${sum}`)
+    for (let i = a; i <= b; i++){
+        if(i % 9 === 0)
+        console.log(i)
+ }
+ }
+Sum([100,200])
+console.log(`----------------`)
+function Sumirane(input)
+{
+ let a = Number(input[0])
+ let b = Number(input[1])
+  for (let i = a; i <= b; i++){
+     if(i % 10 === 7){
+      console.log(i)
+    }
+}
+}
+Sumirane([1,1000])
+console.log(`----------------`)
+function Argument1(input)
+{
+ let num = Number(input[0])
+for (let i = 1; i < 11; i++){
+      console.log(`${i} * ${num} = ${num * i}`)
+    }
+}
+Argument1([5])
+console.log(`----------------`)
+function Job(input)
+{
+let tabs = Number(input[0])
+let zaplata = Number(input[1])
+let string = input[2]
+if (string === `Instagram`);
+{
+   console.log(`Instagram -> глоба 150лв (заплата ${zaplata - 100})`)
+}
+}
+Job([3,750,"Instagram","Facebook"])
