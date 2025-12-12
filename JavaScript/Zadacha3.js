@@ -75,13 +75,13 @@ function Sum(input){
  let b = Number(input[1])
  let sum = 0
      for (let i = a; i <= b; i++){
-        if(i % 9 === 0){
+        if(i % 9 == 0){
             sum += i
     }
 }
      console.log(`the sum: ${sum}`)
     for (let i = a; i <= b; i++){
-        if(i % 9 === 0)
+        if(i % 9 == 0)
         console.log(i)
  }
  }
@@ -92,7 +92,7 @@ function Sumirane(input)
  let a = Number(input[0])
  let b = Number(input[1])
   for (let i = a; i <= b; i++){
-     if(i % 10 === 7){
+     if(i % 10 == 7){
       console.log(i)
     }
 }
@@ -112,10 +112,36 @@ function Job(input)
 {
 let tabs = Number(input[0])
 let zaplata = Number(input[1])
-let string = input[2]
-if (string === `Instagram`);
+let currentzaplata = zaplata
+let facebookGloba = 150
+let instagramGloba = 100
+let redditGloba = 50
+let string = input[6]
+
+if (string == `Instagram`);
 {
-   console.log(`Instagram -> глоба 150лв (заплата ${zaplata - 100})`)
+    tabs = 3
+   currentzaplata -= instagramGloba
+   console.log(`Instagram -> имаш ${tabs} таба, глоба 100лв (заплата ${currentzaplata})`) 
+}
+if (string == `Facebook`);
+{
+    tabs = 4
+   currentzaplata -= facebookGloba 
+   console.log(`Facebook -> имаш ${tabs} таба,глоба 150лв (заплата ${currentzaplata})`)
+}
+if (string == `Dev.bg`);
+{ 
+    tabs = 0
+   console.log(`Dev.bg -> имаш ${tabs} таба,глоба нема (заплата ${currentzaplata})`)
+}
+if (string == `Reddit`);
+{
+    tabs = 2
+   currentzaplata -= redditGloba
+   console.log(`Reddit -> имаш ${tabs} таба, глоба 50лв (заплата ${currentzaplata})`)
 }
 }
-Job([3,750,"Instagram","Facebook"])
+Job([0,750,100,150,50,"Instagram","Facebook","Dev.bg","Reddit"])
+console.log(`----------------------`)
+
