@@ -5,11 +5,11 @@ function Triangle1(input)
  let c = Number (input[2])
 if(((a + b) > c)&& ((a + c) > b )&& ((b + c)> a))
 {
-  //console.log(`The triangle is real.`);
+ // console.log(`The triangle is real.`);
 }
 else
 {
- //console.log(`The triangle AINT triangling`);
+// console.log(`The triangle AINT triangling`);
 }
 if((a==b) && (b==c) && (a==c))
 {
@@ -34,7 +34,7 @@ console.log(`The area of the triangle is ${S}.`);
 Triangle1([5,5,5,4,4,4])
 Triangle1([1,6,9,7,2,3])
 Triangle1([1,3,1,5,0,5])
-console.log(`---------`);
+console.log(`----------------`);
 
 function Month(input)
 {
@@ -55,33 +55,34 @@ console.log(`----------------`);
 
 function Finder(input)
 {
-let x = Number(input[0]);
-if (x <= 0) {
-    console.log('y = 2');
-} else if (x > 0 && x < 1) {
-    console.log(`y = ${1 + 2}`);
-} else if (x >= 1 && x <= 2) {
-    console.log('y = 3');
-} else if (x > 2 && x < 3) {
-    console.log(`y = ${5 - x}`);
-} else if (x >= 3) {
-    console.log('y = 2');
+let x = Number(input[0])
+if(x <= 0 && x < 1)
+ console.log(`y = 2`);
+ else if ( x > 0 && x < 1)
+console.log(`y = ${x + 2}`);
+ else if (x >= 1 && x <= 2) 
+console.log(`y = 3`)
+else if ( x > 2 && x < 3)
+ console.log(`y = ${5 - x}`);
+else if (x >= 3)
+ console.log(`y = 2`);
 }
-}
-Finder([-1]);
-Finder([2.5]);
-Finder([1.5]);
+Finder([-12])
+Finder([0.5])
+Finder([1.5])
 console.log(`----------------`);
-function AreaCalculator(shape, a, b) {
-    switch (shape) {
-        case "square": console.log(a*a); break;
-        case "rectangle": console.log(a*b); break;
-        case "circle": console.log(Math.PI*a*a); break;
-        case "triangle": console.log((a*b)/2); break;
-        default: console.log("Error!"); break;
+function Function1(shape,a,b)
+{
+    switch(shape){
+        case "square":console.log(a*a);break;
+       case "rectangle":console.log(a*b);break;
+       case "circle":console.log(Math.PI*a*a);break;
+       case "triangle":console.log((a*b)/2);break;
+       default: console.log("Error!"); break;
     }
-}
-AreaCalculator(`square`, 5);
-AreaCalculator(`rectangle`, 4, 6);
-AreaCalculator(`circle`, 3);
-AreaCalculator(`triangle`, 4, 5);
+    }
+Function1("square",5);
+Function1("rectangle",4,6);
+Function1("circle",3);
+Function1("triangle",4,5);
+

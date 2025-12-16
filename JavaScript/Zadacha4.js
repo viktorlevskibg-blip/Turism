@@ -1,5 +1,4 @@
-function PrintNumber1(input)
-{
+function PrintNumber1(input){
 let i = 1;
 while (i < 10){
 i++
@@ -43,6 +42,4 @@ while (i > 0)
 }
 PrintNumber3()
 console.log(`------------`)
-
-
 
