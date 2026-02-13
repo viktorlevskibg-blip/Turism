@@ -3,7 +3,7 @@ p{
     text-align: center;
 }
 button{
-margin-left: 41.5%;
+margin-left: 40%;
 border-radius: 6px;
 padding: 13px;
 }
@@ -13,6 +13,7 @@ form{
     border-radius: 10px;
     width: 80%;
     margin-left: 5%;
+    background-color: lightgreen;
 }
 input{
     margin-left: 2px;
@@ -24,3 +25,14 @@ label{
     font-size: 25px;
     margin-bottom:100px;
 }
+#TextAdd{
+    padding:6px;
+    width: 200px;
+    border-color: blue;
+}
+#result{
+    margin-top:10px;
+    text-align: left;
+    font-size: 16px;
+}
+
